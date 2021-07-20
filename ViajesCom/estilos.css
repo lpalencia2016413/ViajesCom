@@ -1,0 +1,108 @@
+*{
+  margin: 0px;
+}
+
+html, body, .container{
+  height: 100%;
+  width: 100%;
+}
+
+header{  
+  font-size: 15px ;
+  color:white;
+  font-weight: bolder;
+  display: inline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header img{
+  margin: 5px 8px;
+}
+
+.menu{
+  float: right;
+}
+
+.menu a{
+  background: rgba(27, 27, 27, 0.452);
+  padding: 8px 20px;
+  margin: 0px 9.5px;
+  margin-top: 30px;
+  text-decoration: none;
+  display:inline-block;
+  color:white;
+  box-shadow:0px  3px  0px  #fff ;
+}
+
+.menu a:hover{
+background: white;
+color:black;
+box-shadow:0px  2px  0px  #1b1b1b ;
+
+}
+
+.container{
+  background: url("imagenes/fondo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+#Ques{
+  font-family: helvetica,arial,Impact;
+  text-transform: capitalize;
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#Rec{
+  font-family: helvetica,arial,Impact;
+  font-size: 12px;
+  color: #fff;
+}
+
+input, textarea{
+  padding : 5px;
+  border:1px solid #1b1b1b ;
+}
+
+input:focus{
+ border:2px solid #fff;
+}
+input[type="submit"]{
+  background:#E57239;
+  color:#fff;
+  font-size: 15px;
+  border:none;
+  width: 70px;
+}
+
+input[type="submit"]:hover{
+  background:#E4946C;
+  cursor:pointer;
+}
+
+
+
+footer{
+  padding:5px;
+  font-family: Helvetica,arial,sans-serif ;
+  text-align: center;
+  color:#fff;
+  height: 10%;
+  width: 100%;
+  background:#1b1b1b;
+  position: fixed;
+  bottom: 0;
+}
+ 
+.center{
+  text-align: center;
+}
+
+.logos{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
